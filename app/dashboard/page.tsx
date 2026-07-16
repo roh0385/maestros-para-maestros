@@ -18,7 +18,7 @@ export default function DashboardPage() {
 
           {["Admisión", "ATP", "Dirección", "Supervisión"].map((opcion) => (
             <div
-              key={opcion}
+              key={ }
               className="rounded-xl border border-slate-300 bg-white p-6 text-xl text-slate-500"
             >
               {opcion} — Próximamente
