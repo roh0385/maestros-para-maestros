@@ -1,12 +1,15 @@
 "use client";
 import { useState } from "react";
-import { Reactivo } from "@/data/reactivos";
-
+import { reactivos } from "@/data";
 type Props = {
   reactivo: Reactivo;
+  onRespondida?: () => void;
 };
 
-export default function ReactivoCard({ reactivo }: Props) {
+export default function ReactivoCard({
+  reactivo,
+  onRespondida,
+}: Props) {
     const [seleccionada, setSeleccionada] = useState<number | null>(null);
     const [respondida, setRespondida] = useState(false);
 return (
@@ -41,25 +44,37 @@ return (
 <button
   key={index}
   onClick={() => setSeleccionada(index)}
+  disabled={respondida}
   className={`w-full rounded-lg border p-4 text-left transition ${
-    seleccionada === index
-      ? "border-blue-600 bg-blue-50"
-      : "border-slate-200 hover:bg-slate-50"
-  }`}
+    respondida && index === reactivo.respuestaCorrecta
+      ? "border-green-600 bg-green-50"
+      : respondida &&
+          seleccionada === index &&
+          index !== reactivo.respuestaCorrecta
+        ? "border-red-600 bg-red-50"
+        : seleccionada === index
+          ? "border-blue-600 bg-blue-50"
+          : "border-slate-200 hover:bg-slate-50"
+  } disabled:cursor-default`}
 >
-  <strong>{String.fromCharCode(65 + index)}.</strong>{" "}
+      <strong>{String.fromCharCode(65 + index)}.</strong>{" "}
   {opcion}
 </button>
    ))}
 </div>
 
-<button
-onClick={() => setRespondida(true)}
-  disabled={seleccionada === null}
-  className="mt-6 rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300"
->
-  Responder
-</button>
+{!respondida && (
+  <button
+    onClick={() => {
+      setRespondida(true);
+      onRespondida?.();
+    }}
+    disabled={seleccionada === null}
+    className="mt-6 rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300"
+  >
+    Responder
+  </button>
+)}
 {respondida && (
   <div className="mt-6 rounded-xl bg-slate-100 p-5">
     <p className="font-semibold">
