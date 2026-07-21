@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { reactivos } from "@/data";
+import type { Reactivo } from "@/data/types";
 type Props = {
   reactivo: Reactivo;
   onRespondida?: () => void;
