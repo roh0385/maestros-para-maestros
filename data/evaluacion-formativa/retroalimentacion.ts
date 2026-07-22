@@ -370,4 +370,293 @@ export const retroalimentacion: Reactivo[] = [
     bibliografia:
       "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
   },
+    {
+    id: 11,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Después de revisar un texto argumentativo, la docente escribe: “Tu postura se comprende con claridad. Ahora incorpora una evidencia que respalde el segundo argumento y explica cómo se relaciona con tu conclusión”.",
+    pregunta:
+      "¿Qué característica de la retroalimentación se observa principalmente?",
+    opciones: [
+      "Reconoce un logro y señala una acción específica para mejorar.",
+      "Se limita a emitir un juicio general sobre el trabajo.",
+      "Compara el desempeño con el de otros estudiantes.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación identifica una fortaleza y propone una acción concreta vinculada con el aprendizaje esperado.",
+    porQueNo: [
+      "El comentario no es general, pues señala aspectos precisos del texto.",
+      "La valoración se centra en la producción del estudiante y no en comparaciones con sus compañeros.",
+    ],
+    fundamento:
+      "La retroalimentación formativa debe comunicar avances y orientar acciones concretas para continuar aprendiendo.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 12,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Al concluir una actividad, un profesor devuelve los trabajos con las expresiones “bien”, “mal” o “incompleto”, sin agregar ninguna orientación.",
+    pregunta:
+      "¿Qué ajuste debe realizar para que sus comentarios tengan una función formativa?",
+    opciones: [
+      "Relacionar los comentarios con criterios y señalar cómo avanzar.",
+      "Agregar únicamente una calificación numérica a cada trabajo.",
+      "Entregar una lista con los nombres de quienes obtuvieron mejores resultados.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación formativa necesita información comprensible sobre el desempeño y acciones que ayuden a mejorar.",
+    porQueNo: [
+      "Una calificación no explica qué se logró ni qué debe modificarse.",
+      "La comparación pública no ofrece orientaciones para mejorar y puede afectar el ambiente de aprendizaje.",
+    ],
+    fundamento:
+      "Los resultados de la evaluación deben utilizarse para ofrecer orientaciones pertinentes y oportunas.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 13,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Durante la resolución de un problema matemático, una alumna obtiene una respuesta incorrecta. La docente le pregunta qué procedimiento utilizó y en qué paso podría comprobar su resultado.",
+    pregunta:
+      "¿Qué propósito tiene esta intervención?",
+    opciones: [
+      "Favorecer que la alumna analice su procedimiento y detecte cómo corregirlo.",
+      "Indicar inmediatamente la respuesta correcta para ahorrar tiempo.",
+      "Demostrar frente al grupo que el procedimiento fue equivocado.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Las preguntas permiten que la estudiante haga visible su razonamiento, identifique el punto de dificultad y participe en la corrección.",
+    porQueNo: [
+      "Dar directamente la respuesta limita la reflexión sobre el procedimiento.",
+      "Exhibir el error no contribuye a comprenderlo ni genera un ambiente seguro para aprender.",
+    ],
+    fundamento:
+      "El error puede analizarse como una fuente de información para ajustar estrategias y construir nuevos aprendizajes.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 14,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Una docente ofrece retroalimentación detallada sobre un proyecto cuando el grupo ya inició una secuencia distinta y no tendrá oportunidad de modificarlo.",
+    pregunta:
+      "¿Qué condición de la retroalimentación no se está atendiendo?",
+    opciones: [
+      "La oportunidad para utilizarla durante el proceso de mejora.",
+      "La obligación de expresar todos los comentarios mediante una calificación.",
+      "La necesidad de que todos los estudiantes reciban exactamente el mismo mensaje.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación debe ofrecerse cuando todavía sea posible revisar, corregir o aplicar las orientaciones recibidas.",
+    porQueNo: [
+      "La retroalimentación no requiere convertirse necesariamente en una calificación.",
+      "Los comentarios pueden variar según las evidencias y necesidades de cada estudiante.",
+    ],
+    fundamento:
+      "La retroalimentación oportuna permite tomar decisiones y realizar ajustes antes de concluir el proceso de aprendizaje.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 15,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Después de observar varias exposiciones, el maestro identifica que gran parte del grupo lee toda la información de sus diapositivas y mantiene poco contacto con la audiencia.",
+    pregunta:
+      "¿Cuál sería la retroalimentación grupal más pertinente?",
+    opciones: [
+      "Analizar ejemplos, recordar los criterios y practicar estrategias para comunicar las ideas sin leer todo el texto.",
+      "Reducir la calificación de todos los equipos sin explicar el motivo.",
+      "Pedir que repitan exactamente la misma exposición sin ninguna orientación adicional.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Cuando una dificultad es compartida, la retroalimentación grupal puede retomar criterios, mostrar ejemplos y brindar oportunidades de práctica.",
+    porQueNo: [
+      "Disminuir la calificación no explica cómo mejorar el desempeño.",
+      "Repetir la actividad sin orientación probablemente mantendrá las mismas dificultades.",
+    ],
+    fundamento:
+      "La interpretación de evidencias comunes puede orientar ajustes en la enseñanza y apoyos dirigidos a todo el grupo.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 16,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Un estudiante recibe una hoja con numerosos errores marcados, pero no logra reconocer cuáles debe atender primero ni cómo empezar a corregirlos.",
+    pregunta:
+      "¿Qué decisión docente sería más adecuada?",
+    opciones: [
+      "Priorizar los aspectos más relevantes y ofrecer orientaciones manejables para revisarlos.",
+      "Marcar todavía más errores para que el estudiante comprenda la gravedad de la situación.",
+      "Solicitar que repita todo el trabajo desde el inicio sin revisar el anterior.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Una retroalimentación focalizada evita saturar al estudiante y le permite concentrarse en acciones de mejora alcanzables.",
+    porQueNo: [
+      "Aumentar la cantidad de señalamientos puede generar confusión sin orientar el aprendizaje.",
+      "Repetir el trabajo sin analizar las dificultades desaprovecha la evidencia disponible.",
+    ],
+    fundamento:
+      "La retroalimentación debe ser clara, pertinente y adecuada a las posibilidades de acción del alumnado.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 17,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Después de recibir observaciones sobre su borrador, un alumno modifica la organización de sus ideas y entrega una segunda versión.",
+    pregunta:
+      "¿Qué acción debe realizar la docente para cerrar el ciclo de retroalimentación?",
+    opciones: [
+      "Revisar los cambios y dialogar sobre los avances y aspectos que aún requieren atención.",
+      "Conservar únicamente la valoración de la primera versión.",
+      "Asignar la misma calificación porque el trabajo ya había sido revisado.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Revisar la nueva versión permite valorar cómo se utilizaron las orientaciones y qué aprendizajes o dificultades permanecen.",
+    porQueNo: [
+      "Considerar solo la primera versión ignora el proceso de mejora realizado.",
+      "Mantener automáticamente el mismo resultado desestima las modificaciones y nuevas evidencias.",
+    ],
+    fundamento:
+      "La evaluación formativa implica ciclos de producción, retroalimentación, revisión y nueva valoración.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 18,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Una docente comenta a un estudiante: “Eres muy inteligente, por eso tu trabajo está excelente”.",
+    pregunta:
+      "¿Cómo podría mejorar este comentario?",
+    opciones: [
+      "Describir qué elementos del trabajo cumplen los criterios y qué estrategia contribuyó al resultado.",
+      "Mantenerlo igual porque los elogios generales siempre mejoran el aprendizaje.",
+      "Sustituirlo por una comparación con el estudiante que obtuvo el resultado más bajo.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación centrada en el desempeño y las estrategias aporta información que el estudiante puede comprender y volver a utilizar.",
+    porQueNo: [
+      "Un elogio general no explica qué se hizo adecuadamente ni cómo mantener el avance.",
+      "La comparación entre estudiantes desvía la atención de los criterios y del proceso personal.",
+    ],
+    fundamento:
+      "Los comentarios deben centrarse en evidencias, estrategias y producciones, evitando etiquetas sobre la persona.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 19,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Al revisar un proyecto, la maestra detecta que el producto cumple con los criterios establecidos, pero el estudiante no puede explicar las decisiones que tomó durante su elaboración.",
+    pregunta:
+      "¿Qué retroalimentación favorecería una comprensión más profunda?",
+    opciones: [
+      "Plantear preguntas para que explique sus decisiones, estrategias y aprendizajes.",
+      "Confirmar que el producto es correcto y evitar cualquier otra intervención.",
+      "Solicitar que memorice la descripción del procedimiento de otro compañero.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Las preguntas reflexivas ayudan al estudiante a reconocer su proceso, justificar decisiones y hacer consciente lo aprendido.",
+    porQueNo: [
+      "Valorar únicamente el producto deja fuera información relevante sobre el proceso.",
+      "Repetir el procedimiento ajeno no permite analizar las decisiones propias.",
+    ],
+    fundamento:
+      "La retroalimentación puede favorecer procesos metacognitivos al promover el análisis de estrategias y decisiones.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 20,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Retroalimentación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "En un grupo con distintos ritmos de aprendizaje, la docente utiliza el mismo comentario escrito para todos, aunque las evidencias muestran dificultades y avances diferentes.",
+    pregunta:
+      "¿Qué principio debería orientar su intervención?",
+    opciones: [
+      "Adecuar la retroalimentación a las evidencias y necesidades identificadas.",
+      "Mantener mensajes idénticos para garantizar que todos reciban exactamente el mismo apoyo.",
+      "Retroalimentar únicamente a quienes obtuvieron los resultados más bajos.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación debe responder a lo que cada estudiante o grupo necesita para avanzar a partir de sus evidencias.",
+    porQueNo: [
+      "Ofrecer el mismo comentario no garantiza equidad cuando las necesidades son diferentes.",
+      "También quienes muestran avances requieren información para consolidar o profundizar sus aprendizajes.",
+    ],
+    fundamento:
+      "La evaluación formativa reconoce la diversidad del alumnado y orienta apoyos pertinentes según sus procesos.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
 ];

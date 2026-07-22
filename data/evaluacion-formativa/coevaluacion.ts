@@ -222,4 +222,293 @@ export const coevaluacion: Reactivo[] = [
     bibliografia:
       "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
   },
+    {
+    id: 13,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Después de una exposición, cada equipo revisa el trabajo de otro utilizando una rúbrica previamente conocida por todo el grupo.",
+    pregunta:
+      "¿Qué condición fortalece el carácter formativo de esta coevaluación?",
+    opciones: [
+      "Que los comentarios se fundamenten en criterios y evidencias.",
+      "Que cada equipo otorgue únicamente una calificación.",
+      "Que solo participe el equipo con mejores resultados.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La coevaluación es útil cuando las observaciones se sustentan en criterios claros y evidencias del desempeño.",
+    porQueNo: [
+      "Asignar solo una calificación aporta poca información para mejorar.",
+      "Todos los estudiantes deben participar en el proceso de evaluación.",
+    ],
+    fundamento:
+      "La coevaluación promueve la reflexión compartida y la mejora del aprendizaje mediante criterios comunes.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 14,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Los estudiantes intercambian sus escritos, pero los comentarios se limitan a expresiones como 'está bien' o 'me gustó'.",
+    pregunta:
+      "¿Qué debe hacer la docente para fortalecer la coevaluación?",
+    opciones: [
+      "Proporcionar criterios específicos para orientar la retroalimentación.",
+      "Eliminar la coevaluación y revisar todos los trabajos ella sola.",
+      "Solicitar únicamente una calificación numérica.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Los criterios ayudan a emitir observaciones útiles y centradas en el aprendizaje.",
+    porQueNo: [
+      "Eliminar la participación del alumnado reduce las oportunidades de reflexión.",
+      "La calificación por sí sola no orienta la mejora.",
+    ],
+    fundamento:
+      "La calidad de la retroalimentación depende de contar con referentes claros.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 15,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Durante un proyecto, cada integrante revisa la participación de sus compañeros considerando colaboración, comunicación y cumplimiento de acuerdos.",
+    pregunta:
+      "¿Qué ventaja ofrece esta práctica?",
+    opciones: [
+      "Favorece la reflexión compartida sobre el trabajo colaborativo.",
+      "Permite sustituir completamente la evaluación docente.",
+      "Evita que los estudiantes dialoguen entre sí.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La coevaluación fortalece la responsabilidad compartida y la mejora del trabajo en equipo.",
+    porQueNo: [
+      "No sustituye la valoración profesional del docente.",
+      "Su propósito es promover el diálogo, no impedirlo.",
+    ],
+    fundamento:
+      "La evaluación formativa reconoce la participación activa del alumnado en la valoración de los procesos.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 16,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "En un grupo existe la costumbre de asignar siempre la máxima valoración a todos los compañeros para evitar conflictos.",
+    pregunta:
+      "¿Qué consecuencia tiene esta práctica?",
+    opciones: [
+      "Reduce la utilidad formativa de la coevaluación.",
+      "Fortalece la objetividad de las valoraciones.",
+      "Garantiza una retroalimentación de calidad.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Si las valoraciones no reflejan evidencias reales, dejan de orientar la mejora.",
+    porQueNo: [
+      "La objetividad requiere criterios y evidencias.",
+      "Sin análisis fundamentado no existe retroalimentación útil.",
+    ],
+    fundamento:
+      "Las valoraciones deben sustentarse en evidencias observables.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 17,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Al revisar el trabajo de un compañero, un estudiante identifica fortalezas y propone una mejora específica relacionada con los criterios establecidos.",
+    pregunta:
+      "¿Qué característica presenta esta retroalimentación?",
+    opciones: [
+      "Es específica, respetuosa y orientada a la mejora.",
+      "Es subjetiva porque expresa una opinión personal.",
+      "Es una calificación sin fundamento.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación útil identifica logros y propone acciones concretas para avanzar.",
+    porQueNo: [
+      "No se basa únicamente en opiniones.",
+      "Incluye argumentos, no solo una calificación.",
+    ],
+    fundamento:
+      "La retroalimentación efectiva favorece el aprendizaje y la mejora continua.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 18,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Los estudiantes analizan entre pares un experimento utilizando una guía de observación elaborada por la docente.",
+    pregunta:
+      "¿Qué aporta el uso de la guía?",
+    opciones: [
+      "Centra la atención en aspectos relevantes del desempeño.",
+      "Permite emitir opiniones sin necesidad de evidencias.",
+      "Hace innecesaria la observación directa.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La guía orienta qué observar y cómo valorar el desempeño.",
+    porQueNo: [
+      "Las opiniones deben sustentarse en evidencias.",
+      "La observación sigue siendo indispensable.",
+    ],
+    fundamento:
+      "Los instrumentos organizan y sistematizan la recuperación de evidencias.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 19,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Una docente detecta que algunos comentarios entre compañeros generan incomodidad porque se expresan de manera poco respetuosa.",
+    pregunta:
+      "¿Cuál es la mejor intervención?",
+    opciones: [
+      "Establecer normas de comunicación respetuosa antes de coevaluar.",
+      "Suspender definitivamente la coevaluación.",
+      "Permitir comentarios libres sin intervención docente.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La coevaluación requiere un ambiente de confianza y respeto para cumplir su función formativa.",
+    porQueNo: [
+      "Eliminar la estrategia impide desarrollar esta competencia.",
+      "La ausencia de normas puede afectar la convivencia.",
+    ],
+    fundamento:
+      "La evaluación debe desarrollarse en ambientes seguros y colaborativos.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 20,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Intermedio",
+    tipo: "Caso práctico",
+    caso:
+      "Después de recibir observaciones de sus compañeros, un estudiante mejora la organización y claridad de su presentación.",
+    pregunta:
+      "¿Qué evidencia muestra este caso?",
+    opciones: [
+      "La coevaluación favorece la mejora durante el proceso.",
+      "La coevaluación solo sirve para asignar calificaciones.",
+      "La coevaluación sustituye la planeación docente.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "La retroalimentación entre pares puede utilizarse para mejorar antes del producto final.",
+    porQueNo: [
+      "Su finalidad principal no es calificar.",
+      "No reemplaza la intervención del docente.",
+    ],
+    fundamento:
+      "La evaluación formativa busca generar oportunidades de mejora continua.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 21,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Básico",
+    tipo: "Cuestionamiento directo",
+    caso:
+      "Una docente desea iniciar actividades de coevaluación con su grupo.",
+    pregunta:
+      "¿Qué elemento debe establecer primero?",
+    opciones: [
+      "Criterios claros y conocidos por todo el alumnado.",
+      "Una escala de calificaciones del 1 al 10.",
+      "La comparación pública entre estudiantes.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Los criterios orientan las observaciones y favorecen valoraciones objetivas.",
+    porQueNo: [
+      "La calificación no sustituye los criterios.",
+      "Las comparaciones públicas pueden afectar el clima de aula.",
+    ],
+    fundamento:
+      "Los criterios compartidos fortalecen la participación responsable en la evaluación.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
+
+  {
+    id: 22,
+    area: "Intervención docente",
+    tema: "Evaluación Formativa",
+    subtema: "Coevaluación",
+    nivel: "Avanzado",
+    tipo: "Caso práctico",
+    caso:
+      "Al finalizar una secuencia didáctica, la docente analiza las observaciones realizadas entre pares para identificar dificultades comunes del grupo.",
+    pregunta:
+      "¿Qué uso pedagógico está dando a la información obtenida?",
+    opciones: [
+      "Ajustar la enseñanza a partir de las evidencias recuperadas.",
+      "Reemplazar todas las evaluaciones posteriores.",
+      "Conservar los comentarios únicamente como evidencia administrativa.",
+    ],
+    respuestaCorrecta: 0,
+    explicacion:
+      "Las evidencias de la coevaluación también orientan decisiones sobre la enseñanza.",
+    porQueNo: [
+      "La coevaluación complementa otras evidencias, no las sustituye.",
+      "La información debe utilizarse para mejorar el aprendizaje.",
+    ],
+    fundamento:
+      "La evaluación formativa implica interpretar evidencias para tomar decisiones pedagógicas oportunas.",
+    bibliografia:
+      "Plan de Estudio para la Educación Preescolar, Primaria y Secundaria 2022.",
+  },
 ];
